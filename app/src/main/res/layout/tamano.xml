@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+   android:background="@drawable/tamano_pincel_window"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="TAMAÑO PINCEL"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/btPincelGrande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:background="@drawable/bt_tamano"
+        android:layout_marginTop="5dp"
+        android:text="Grande" />
+
+    <Button
+        android:id="@+id/btPincelMediano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btPincelGrande"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bt_tamano"
+        android:text="mediano"
+
+        />
+
+    <Button
+        android:id="@+id/btPincelPequeno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btPincelMediano"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bt_tamano"
+        android:text="pequeño"
+
+        />
+
+
+</LinearLayout>
